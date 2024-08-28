@@ -3,23 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>SAM: Science Awareness Media</title>
-	  <!-- The following style element is to be removed and an external style file to be imported. -->
     <style>
-	    h1, h2, h3 {
-		    color: green;
-		    font-family: sans-serif;
-	    }
-	    p {
-		    color: green;
-		    font-size: large;
-		    font-family: sans-serif;
-	    }
+      body {
+	  background-color: black;
+      }
+      h1, h2, h3 {
+	  color: green;
+	  font-family: sans-serif;
+      }
+      p {
+	  color: green;
+	  font-size: large;
+	  font-family: sans-serif;
+      }
+      small {
+	  font-family: default;
+      }
+      #warning {
+	  color: green;
+      }
     </style>
   </head>
-  <body style="{background-color: black;}"> <!-- To be removed in the future when proper CSS is learned. -->
+  <body>
     <header id="globalheader">
-      <h1><abbr>S.A.M.</abbr></h1><br>
-      <span id="subtitle"><p>Science Awareness Media</p></span>
+      <h1><abbr>S.A.M.</abbr>: Science Awareness Media</h1>
       <nav id="globalnav">
 	<ul>
 	  <li><a href="https://pointblanck.github.io/">Home</a></li>
@@ -60,8 +67,8 @@
     </main>
     <footer>
       <small>
-	<p>This site is still under construction.<br>
-	  Some features may not function properly.</p>
+	  <span id="warning">This site is still under construction.<br>
+	    Some features may not function properly.</span>
       </small>
     </footer>
   </body>

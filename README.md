@@ -1,3 +1,3 @@
 # Personal & Portfolio Website
 
-This repository serves as a host to my personla website.
+This repository serves as a host to my personal website.
